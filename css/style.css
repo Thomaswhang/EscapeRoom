@@ -2,24 +2,19 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* unvisited link */
-a:link {
-    color: #1e90ff;
-}
-
 /* visited link */
 a:visited {
-    color: rgb(255, 0, 0);
+    color:  rgb(199, 182, 87);
 }
 
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: crimson;
 }
 
 main {
     margin-left: 100px;
-    color: crimson;
+    color: rgb(199, 182, 87);
     font-size: large;
 }
 
