@@ -15,25 +15,42 @@
     margin-top: 600px;
 }
 
-chess{
-    color: rgb(199, 182, 87); 
+chess {
+    color: rgb(199, 182, 87);
     margin-left: 100px;
     font-size: 80px;
 }
 
-.aware{
-    color: white;
+.aware {
+    color: rgb(199, 182, 87);
+    margin-top: 510px;
 }
 
 @keyframes blinker {
-    from { opacity: 1.0; }
-    to { opacity: 0.0; }
-  }
-  .aware {
+    from {
+        opacity: 1.0;
+    }
+
+    to {
+        opacity: 0.0;
+    }
+}
+
+.aware {
     animation: blinker;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(.5, 0, 1, 1);
-    animation-duration: 1.7s;
-  }
+    animation-duration: 0.6s;
+}
 
- 
+text {
+    color: rgb(199, 182, 87);
+}
+
+.paragraph-three {
+    color: rgb(199, 182, 87);
+}
+
+a {
+    color: rgb(199, 182, 87);
+}
