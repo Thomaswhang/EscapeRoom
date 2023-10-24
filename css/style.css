@@ -1,6 +1,17 @@
-body{
+body {
     background-image: url(/image/State_Normal_School_Building.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border: 5px solid black;
-    }
+}
+.Nextpage1{
+    text-align: center;
+}
+
+.Nextpage {
+    text-align: right;
+}
+
+.Return{
+    text-align: left;
+}
