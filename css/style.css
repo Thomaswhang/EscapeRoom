@@ -1,3 +1,6 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /* unvisited link */
 a:link {
@@ -23,4 +26,9 @@ main {
 .puzzel {
     margin-top: 100px;
     margin-left: 300px;
+}
+
+footer {
+    margin-top: 80px;
+    margin-left: 525px;
 }
