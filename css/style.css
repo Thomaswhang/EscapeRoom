@@ -1,4 +1,21 @@
-body {
-    background-image: url("https://assets.epuzzle.info/puzzle/105/859/original.webp");
-    background-color: #cccccc;
-   }
+
+/* unvisited link */
+a:link {
+    color: #1e90ff;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(255, 0, 0);
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+main {
+    margin-left: 100px;
+    color: azure;
+    font-size: large;
+}
