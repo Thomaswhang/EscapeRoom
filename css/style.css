@@ -1,0 +1,39 @@
+.paragraph-one {
+    color: rgb(199, 182, 87);
+    padding: auto;
+    margin-left: 400px;
+    margin-right: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.paragraph-two {
+    color: rgb(199, 182, 87);
+    padding: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-top: 600px;
+}
+
+chess{
+    color: rgb(199, 182, 87); 
+    margin-left: 100px;
+    font-size: 80px;
+}
+
+.aware{
+    color: white;
+}
+
+@keyframes blinker {
+    from { opacity: 1.0; }
+    to { opacity: 0.0; }
+  }
+  .aware {
+    animation: blinker;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.5, 0, 1, 1);
+    animation-duration: 1.7s;
+  }
+
+ 
