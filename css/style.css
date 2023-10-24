@@ -1,5 +1,7 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(199, 182, 87);
+    text-align: center;
 }
 
 .explaining{
@@ -8,4 +10,15 @@
 
 .rules{
     font-size: medium;
+}
+
+body{
+    background-image: url('/img/achtergrond\ foto.jfif');
+}
+
+.math-riddle-picture{
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
