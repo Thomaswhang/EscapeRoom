@@ -19,3 +19,8 @@ main {
     color: azure;
     font-size: large;
 }
+
+.puzzel {
+    margin-top: 100px;
+    margin-left: 300px;
+}
