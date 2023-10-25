@@ -5,7 +5,7 @@
 }
 
 .explaining{
-    font-size: large;
+    font-size: large;    
 }
 
 .rules{
@@ -14,6 +14,8 @@
 
 body{
     background-image: url('/img/achtergrond\ foto.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .math-riddle-picture{
