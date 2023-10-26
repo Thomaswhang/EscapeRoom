@@ -21,6 +21,7 @@ body{
     margin: 70px;
 }
 .NextPagebutton1{
+    margin-left: 100px;
     width: 800px;
     height: 200px;
    background-color: black; 
@@ -74,6 +75,7 @@ h1{
     color: rgb(199, 182, 87);
 }
 .story1{
+    margin-left: 100px;
     font-size: 23px;
     text-align: center;
     color: rgb(199, 182, 87);
@@ -238,5 +240,18 @@ a {
 
 label {
     color: rgb(199, 182, 87);
+    text-align: center;
+    margin-left: 400px;
 
+}
+.uitleg-rebus{
+    margin-right: 500px;
+}
+.submit-rebus{
+    text-align: center;
+    margin-left: 375px;
+}
+.answer{
+    text-align: center;
+    margin-left: 355px;
 }
