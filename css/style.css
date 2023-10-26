@@ -241,7 +241,7 @@ a {
 label {
     color: rgb(199, 182, 87);
     text-align: center;
-    margin-left: 400px;
+    margin-left: 280px;
 
 }
 .uitleg-rebus{
@@ -249,9 +249,9 @@ label {
 }
 .submit-rebus{
     text-align: center;
-    margin-left: 375px;
+    margin-left: 250px;
 }
 .answer{
     text-align: center;
-    margin-left: 355px;
+    margin-left: 220px;
 }
