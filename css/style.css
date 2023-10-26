@@ -8,7 +8,19 @@
     font-size: large;    
 }
 
-.rules{
+.rules {
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -49px;
+}
+.rules-two {
+    width: 44%;
+    margin-bottom: 20px;
+    margin-top: -700px;
+    text-align: right;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
 }
 
@@ -25,12 +37,23 @@ body{
     justify-content: center;
     align-items: center;    
 }
-.my-button{
+.my-button {
     background-color: white;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 150px;
+    height: 48px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
 }
-.my-button-two{
-    color: black;
+.my-button-two {
     background-color: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 150px;
+    height: 48px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
 }
