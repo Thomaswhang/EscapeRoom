@@ -4,7 +4,7 @@
 
 /* visited link */
 a:visited {
-    color:  rgb(199, 182, 87);
+    color: rgb(199, 182, 87);
 }
 
 /* mouse over link */
@@ -26,4 +26,8 @@ main {
 footer {
     margin-top: 40px;
     margin-left: 580px;
+}
+
+form {
+    color: rgb(199, 182, 87);
 }
