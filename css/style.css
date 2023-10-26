@@ -28,6 +28,10 @@ footer {
     margin-left: 580px;
 }
 
-form {
+h1 {
+    color: rgb(199, 182, 87);
+}
+
+label {
     color: rgb(199, 182, 87);
 }
