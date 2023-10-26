@@ -1,3 +1,4 @@
+ HEAD
 body{
     background-image: url(/image/State_Normal_School_Building.jpg);
     background-repeat: no-repeat;
@@ -83,4 +84,43 @@ h1{
     text-align: center;
     color: rgb(199, 182, 87);
     background: rgba(0,0,0,0.5);
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(199, 182, 87);
+}
+
+/* mouse over link */
+a:hover {
+    color: crimson;
+}
+
+main {
+    margin-left: 100px;
+    color: rgb(199, 182, 87);
+    font-size: large;
+}
+
+.puzzel {
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+footer {
+    margin-top: 40px;
+    margin-left: 580px;
+}
+
+h1 {
+    color: rgb(199, 182, 87);
+}
+
+label {
+    color: rgb(199, 182, 87);
+
 }
