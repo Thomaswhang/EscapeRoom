@@ -3,26 +3,49 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puzzle 1</title>
+    <title>Rebus</title>
     <link rel="stylesheet" href="/css/style.css">
-</head>
 
 <body>
-    <div class="Return">
-        <button class="Returnbutton">
-            <li><a href="kamer3SpelSpeluitleg.html">Previous</a></li>
-        </button>
-    </div>
-    <hr>
-    <style>
-        body {
-            background-image: url(/image/wp7351043.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    </style>
+    <a href="/Rebus puzzel/Kamer.html">Puzzle 1</a>
+    <a href="/Rebus puzzel/uitlegkamer.html">uitleg Rebus</a>
+    <header>
+
+    <!--bg image-->
+        <style>
+            body {
+
+                background-image: url('https://wallpapercave.com/wp/wp7351043.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+            }
+        </style>
+    </header>
+
+    <main class="puzzel">
+        <img src="/Rebus_puzzle-removebg-preview (2).png" height="250" width="800">
+        <br><br>
+    </main>
+
+
+    <!--Input field and hint button-->
+    <footer>
+        <label for="fname">Answer:</label><br>
+        <input class="answer" type="text" id="fname" name="fname"><br>
+        <button class="submit-rebus">Submit</button>
+
+        <!--the hint-->
+        <button onclick="myFunction()">Hint?</button>
+        <script>
+            function myFunction() {
+                alert("Ram and Ring");
+            }
+
+        </script>
+        <script type="application/javascript" src="/js/main.js"></script>
 </body>
 
 </html>
