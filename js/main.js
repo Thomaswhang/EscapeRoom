@@ -1,5 +1,3 @@
-
-
 console.log('main loaded');
 //variables from the html
 
@@ -8,20 +6,22 @@ const answer1 = "Gambling";
 const inputField1 = document.querySelector('.answer');
 
 //calls the HTML
-submitRebus.addEventListener('click', submitAnswer);
+submitRebus1.addEventListener('click', submitAnswer1);
 
 
 //wrong answer gives an alert, correct answer sends you to the next room
-function submitAnswer() {
-    if (inputField.value == answer) {
+function submitAnswer1() {
+    if (inputField1.value == answer1) {
         alert("You are correct!");
-        window.location.assign("/Rebus puzzel/uitlegkamer.html");
+        window.location.assign("kamer4Speluitleg.html");
     } else {
         alert("Wrong answer! Remember capital letters");
     }
 } 
-Tristan
-console.log('Main Loaded')
+
+//Tristan
+
+/*console.log('Main Loaded')
 
 const button = document.querySelector('.my-button');
 button.addEventListener('click', function () {
@@ -35,10 +35,10 @@ const answer = "two";
 const inputField = document.querySelector('.answer');
  
 //calls the HTML
-submitRebus.addEventListener('click', submitAnswer);
+submitRebus.addEventListener('click', submitAnswer1);
  
 //wrong answer gives an alert, correct answer sends you to the next room
-function submitAnswer() {
+function submitAnswer1() {
     if (inputField.value == answer) {
         alert("You are correct! Press 'Ok' to go to the next room.");
         window.location.assign("/html/index.html");
@@ -48,4 +48,4 @@ function submitAnswer() {
 }
 
 //Maria
-
+*/
