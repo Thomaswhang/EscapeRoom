@@ -1,3 +1,7 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .paragraph-one {
     color: rgb(199, 182, 87);
     padding: auto;
@@ -49,6 +53,7 @@ text {
 
 .paragraph-three {
     color: rgb(199, 182, 87);
+    cursor: pointer;
 }
 
 a {
@@ -56,33 +61,29 @@ a {
 }
 
 .first-row {
-    font-size: 93px;
-    margin-top: -75px;
-    margin-left: 480px;
+    font-size: 50px;
+    margin-top: 110px;
+    margin-left: 948px;
+    color: white;
 
 }
 
 .second-row {
-    font-size: 93px;
-    margin-top: -100px;
-    margin-left: 485px;
+    font-size: 50px;
+    margin-top: 82px;
+    margin-left: 948px;
+    color: black;
 }
 
 .third-row {
-    font-size: 93px;
-    margin-top: 450px;
-    margin-left: 480px;
-    color: rgb(199, 182, 87);
+    font-size: 50px;
+    margin-top: 250px;
+    margin-left: 635px;
+    color: black;
 }
 
-.fourth-row {
-    font-size: 93px;
-    margin-top: -100px;
-    margin-left: 480px;
-    color: rgb(199, 182, 87);
-}
 
-article {
+.my-div {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
     margin-bottom: -100px;
@@ -95,7 +96,15 @@ article {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-button{
-    
+.my-button {
+    background-color: rgb(199, 182, 87);
+    cursor: pointer;
+}
 
+.submit-button {
+    background-color: rgb(199, 182, 87);
+}
+
+label {
+    color: rgb(199, 182, 87);
 }
