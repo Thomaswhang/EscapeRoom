@@ -4,6 +4,14 @@ body{
     background-size: cover;
     border: 5px solid black;
 }
+.Restart{
+    text-align: right;
+}
+.Restartbutton{
+    background-color: black;
+    float: right;
+}
+
 .Nextpage1{
     text-align: center;
     margin: 70px;
@@ -22,6 +30,7 @@ body{
 
 .Nextpage {
     text-align: right;
+    float: right;
 }
 
 .Return{
@@ -49,7 +58,7 @@ a:visited{
 }
 
 a:hover{
-color:white
+color: gold
 }
 .Begintext{
     font-size: 35px;
@@ -69,11 +78,4 @@ h1{
     text-align: center;
     color: rgb(199, 182, 87);
     background: rgba(0,0,0,0.5);
-}
-.Restart{
-    text-align: right;
-}
-
-.Restartbutton{
-    color: black;
 }
