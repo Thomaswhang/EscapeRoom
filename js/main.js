@@ -1,10 +1,5 @@
-// Log messages to the console
-console.log('main loaded');
-console.log("het antwoord is 619");
+console.log("The answer is surely not 619:)");
 
- 
-
-// Event listener and function for the first button
 const myButton = document.querySelector('.my-button');
 myButton.addEventListener('click', checkAnswer);
 
@@ -22,9 +17,6 @@ function checkAnswer() {
     }
 }
 
- 
-
-// Event listener and function for the second button
 const myButtonTwo = document.querySelector('.my-button-two');
 myButtonTwo.addEventListener('click', function() {
     alert('Do not look on F12');
