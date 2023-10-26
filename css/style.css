@@ -5,8 +5,11 @@ body{
     border: 5px solid black;
 }
 .Restart{
-    text-align: right;
+    float: right;
+    margin: -20px;
+    margin-right: 10px;
 }
+
 .Restartbutton{
     background-color: black;
     float: right;
