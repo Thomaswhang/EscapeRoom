@@ -20,6 +20,7 @@ function submitAnswer1() {
     }
 } 
 
+/*
 console.log('Main Loaded')
 
 const button = document.querySelector('.my-button');
@@ -46,9 +47,12 @@ function submitAnswer1() {
     }
 }
 
-
+*/
 //Maria
+
+
 /*
+Karan
 
 console.log("The answer is surely not 619:)");
 
