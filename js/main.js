@@ -20,9 +20,7 @@ function submitAnswer1() {
     }
 } 
 
-//Tristan
-
-/*console.log('Main Loaded')
+console.log('Main Loaded')
 
 const button = document.querySelector('.my-button');
 button.addEventListener('click', function () {
@@ -42,14 +40,15 @@ submitRebus.addEventListener('click', submitAnswer1);
 function submitAnswer1() {
     if (inputField.value == answer) {
         alert("You are correct! Press 'Ok' to go to the next room.");
-        window.location.assign("/html/index.html");
+        window.location.assign("/html/Kamer6Einde.html");
     } else {
         alert("Wrong answer!");
     }
 }
 
+
 //Maria
-*/
+/*
 
 console.log("The answer is surely not 619:)");
 
@@ -128,4 +127,4 @@ myButtonTwo.addEventListener('click', function() {
 //         alert('You lost you fool. Try again!');
 //     }
 // }
-
+*/

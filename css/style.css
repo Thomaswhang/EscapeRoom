@@ -22,6 +22,7 @@ body{
     margin: 70px;
 }
 .NextPagebutton1{
+    margin-left: 100px;
     width: 800px;
     height: 200px;
    background-color: black; 
@@ -75,6 +76,7 @@ h1{
     color: rgb(199, 182, 87);
 }
 .story1{
+    margin-left: 100px;
     font-size: 23px;
     text-align: center;
     color: rgb(199, 182, 87);
@@ -123,7 +125,7 @@ main {
 
 .puzzel {
     margin-top: 100px;
-    margin-left: 300px;
+    margin-right: 50px
 }
 
 footer {
@@ -239,8 +241,11 @@ a {
 
 label {
     color: rgb(199, 182, 87);
+    text-align: center;
+    margin-left: 280px;
 
 }
+HEAD
 
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -300,5 +305,18 @@ body{
     font-size: 17px;
     font-weight: bold;
     text-align: center;
+}
+
+
+.uitleg-rebus{
+    margin-right: 500px;
+}
+.submit-rebus{
+    text-align: center;
+    margin-left: 250px;
+}
+.answer{
+    text-align: center;
+    margin-left: 220px;
 }
 
