@@ -118,10 +118,6 @@ function myFunction() {
 
  }
 
-
-// const result = prompt('Wat is je naam', 'JanHenk');
-// alert(`Jouw naam is ${result}`);
-
  {
      prompt('What is the answer?');
      const Answer = "619";
